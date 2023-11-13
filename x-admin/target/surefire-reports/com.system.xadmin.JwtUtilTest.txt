@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.system.xadmin.JwtUtilTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.138 s <<< FAILURE! - in com.system.xadmin.JwtUtilTest
+testParseToken  Time elapsed: 0.026 s  <<< ERROR!
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2023-09-28T09:42:55Z. Current time: 2023-10-03T17:28:10Z, a difference of 459915857 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at com.system.xadmin.JwtUtilTest.testParseToken(JwtUtilTest.java:31)
+
